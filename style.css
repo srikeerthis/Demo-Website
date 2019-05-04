@@ -1,0 +1,178 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #eee;
+ } 
+#wrapper{
+    width: 980px;
+    margin: 0 auto;
+    background: #fff;
+}
+#main-navigation{
+    background: #181818;
+    overflow: hidden;
+}
+#main-navigation ul{
+    text-align: right;
+    list-style-type: none;
+    margin-right: 10px;
+}
+#main-navigation li{
+    display: inline-block;
+    margin-left: 20px;
+}
+#main-navigation li:hover{
+    background-color: red;
+  }
+#main-navigation a{
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding: 1px 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+} 
+#main-navigation a.current{
+    background: #eee;
+    border-radius: 4px; 
+}
+#lead-banner img{
+    width: 100%;
+}
+h1{
+    margin-left: 15px;
+    text-transform: uppercase; 
+}
+ .slide,.glide{
+    margin-left: 0px;
+} 
+.card {
+    transition: 0.3s;
+    width: 20%;
+    display: inline-block;   
+    margin: 0px 0px 0px 5px;
+  }
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+.container{
+    margin:  0;
+    text-align: center;
+    padding: 2px 16px;
+}
+.card img.Product1{
+    width: 95%;
+    height: 130px;
+    margin: 5px;
+    object-fit: scale-down;
+}
+.container h2.product-name{
+    font-size: 16px;
+}
+.container span.price{
+    display: block;
+    font-size: 16px;
+}
+.container a.add-to-cart{
+    display: block;
+    color: #8f746c;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 10px 0;
+    border: 2px solid #8f746c;
+    margin: 5px auto;
+}
+.container a.add-to-cart:hover{
+    color: #fff;
+    background: #8f746c;
+}  
+.left,.right{
+   cursor: pointer;
+   position: relative;
+   padding: 16px;
+   color: white;
+   font-weight: bold;
+   height: 100px;
+   background-color: #76ad;
+   font-size: 20px;
+   border-radius: 0px 3px 3px 0px;
+   user-select: none;
+   -webkit-user-select: none;
+}
+/* Position the "next button" to the right */
+.right {
+    float: right;
+    margin-right: 30px;
+    margin-top: 140px; 
+    border-radius: 3px 0 0 3px;
+  }
+.left {
+    float: left;
+    margin-left: 30px;
+    margin-top: 140px; 
+    border-radius: 3px 0 0 3px;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  .left:hover,
+  .right:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }  
+#bottom-navigation{
+    background: #181818;
+    padding: 0px;
+}
+#bottom-navigation ul{
+    text-align: left;
+    list-style-type: none;
+}
+#bottom-navigation li{
+    display: inline-block;
+    margin-left: 10px;
+}
+#bottom-navigation a:hover{
+    background-color: #8d746c;
+    border-radius: 4px;
+}
+#bottom-navigation a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px;
+}
+#bottom-navigation h2{
+    color: #27efa2;
+    text-transform: uppercase; 
+}
+#bottom-navigation h4{
+    color:#eee;
+}
+#bottom-navigation h6{
+    color:#eee;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #181818;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+  html {
+    scroll-behavior: smooth;
+   }
+     
