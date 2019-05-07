@@ -15,7 +15,7 @@ body{
 #main-navigation ul{
     text-align: right;
     list-style-type: none;
-    margin-right: 10px;
+    margin-right: 30px;
 }
 #main-navigation li{
     display: inline-block;
@@ -144,14 +144,19 @@ h1{
 }
 #bottom-navigation h2{
     color: #27efa2;
+    margin-left: 50px;
     text-transform: uppercase; 
 }
 #bottom-navigation h4{
     color:#eee;
 }
-#bottom-navigation h6{
+#bottom-navigation h5{
     color:#eee;
 }
+#bottom-navigation img{
+    height: 30px;
+    width: 30px;
+} 
 #myBtn {
     display: none;
     position: fixed;
