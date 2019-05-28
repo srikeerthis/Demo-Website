@@ -22,7 +22,7 @@ body{
     margin-left: 20px;
 }
 #main-navigation button{
-    background-color: #f44336;
+    background-color: #27efa2;
     border: none;
     color: white;
     padding: 7px 5px;
@@ -135,6 +135,10 @@ h1{
 #bottom-navigation h4{
     color:#eee;
 }
+#bottom-navigation a{
+    margin-left: 480px;
+}
+
  #bottom-navigation img{
     height: 30px;
     width: 30px; 
